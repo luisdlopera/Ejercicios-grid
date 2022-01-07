@@ -12,12 +12,12 @@ main{
     grid-auto-columns: 150px;
     grid-auto-flow: column;
     
-    gap: 20px;
+    gap: 20px; 
 }
 main div{
     background-color: aqua;
     display: grid;
-    justify-items: stretch;
+    justify-items: stre;
     align-items: stretch;
 }
 main .item {
