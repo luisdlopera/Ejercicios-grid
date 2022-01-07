@@ -1,0 +1,28 @@
+*{
+    margin: 0;box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    
+    gap: 20px;
+}
+main div{
+    background-color: aqua;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+}
+main .item {
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    padding: 20px;
+    align-items: center;}
